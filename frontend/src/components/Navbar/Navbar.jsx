@@ -20,7 +20,7 @@ const Navbar = ({ setShowLogin }) => {
   return (
     <div className="navbar">
       <Link to="/">
-        <h2>TNP Sales</h2>
+        <h2>TNA Sales</h2>
       </Link>
       <ul className="navbar-menu">
         <Link
