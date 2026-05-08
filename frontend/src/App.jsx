@@ -9,6 +9,7 @@ import LoginPopup from './components/LoginPopup/LoginPopup'
 import Verify from './pages/Verify/Verify'
 import MyOrders from './pages/MyOrders/MyOrders'
 import ProductDetails from './pages/ProductDetails/ProductDetails'
+
 const App = () => {
 
   const [showLogin,setShowLogin] = useState(false);
