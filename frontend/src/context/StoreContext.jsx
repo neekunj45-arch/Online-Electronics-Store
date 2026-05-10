@@ -40,12 +40,10 @@ const StoreContextProvider = (props) => {
                   (product) => product._id === item
                 );
           
-                if (!itemInfo) continue; // 🔒 KEY LINE
+                if (!itemInfo) continue; 
           
                 totalAmount += itemInfo.price * cartItems[item];
-              }
-
-            
+              } 
         }
         return totalAmount;
    }
