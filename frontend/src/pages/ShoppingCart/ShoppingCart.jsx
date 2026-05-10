@@ -3,7 +3,7 @@ import "./ShoppingCart.css";
 import { useContext } from "react";
 import { StoreContext } from "../../context/StoreContext";
 import { useNavigate } from 'react-router-dom'
-const Cart = () => {
+const ShoppingCart = () => {
   const { cartItems, product_list, removeFromCart, getTotalCartAmount, url } = useContext(StoreContext);
 
   const navigate = useNavigate();
@@ -63,4 +63,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default ShoppingCart;
