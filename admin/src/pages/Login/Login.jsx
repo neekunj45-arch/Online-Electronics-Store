@@ -24,9 +24,10 @@ const Login = () => {
   
     try {
       const res = await axios.post(
-        "http://localhost:4000/api/admin/login",
+        "https://online-electronics-store-backend.onrender.com/api/admin/login",
         data
       );
+
   
       localStorage.setItem("adminToken", res.data.token);
   
