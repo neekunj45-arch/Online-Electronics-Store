@@ -1,5 +1,5 @@
 import React from "react";
-import "./TempCart.class";
+import "./TempCart.css";
 import { useContext } from "react";
 import { StoreContext } from "../../context/StoreContext";
 import { useNavigate } from 'react-router-dom'
