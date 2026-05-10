@@ -9,7 +9,7 @@ import Login from './pages/Login/Login'
 
 const App = () => {
 
-  const url = "http://localhost:4000"
+  const url = "https://online-electronics-store-backend.onrender.com"
 
   const [editProduct, setEditProduct] = useState(null);
 
